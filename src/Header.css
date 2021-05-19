@@ -1,0 +1,101 @@
+
+  
+
+.Header{
+    background-color: rgb(211, 204, 208);
+    display: flex;
+    align-items:center;
+    position: relative;
+    width: 100%;
+    padding: 10px 0px;
+   top:0;
+    z-index: 100;
+}
+.header_main{
+    background-color: rgb(211, 204, 208);
+    display: flex;
+    align-items:center;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    text-decoration: none;
+    justify-content: space-evenly;
+    left:650px;
+    
+}
+.header_logo{
+    width:150px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:18px;
+    object-fit: contain;
+}
+.header_welcome{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none; 
+}
+.header_login{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.header_Contactus{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.header_Resource{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.header_search i{
+    position: absolute;
+    padding:10px;
+    min-width:50px;
+    text-align: center;
+    justify-content: center;
+    right: 180px;
+    top:5px;
+}
+
+
+.header_search{
+    display: flex;
+    flex:1;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.header_searchInput{
+    height:12px;
+    padding: 10px;
+    border:none;
+    width: 100%;
+    text-align:inherit;
+}
+.header_searchInput{
+    padding:5px;
+    height:22px !important;
+    background-color:white;
+}
+.header_icon{
+  position: relative;
+   min-width:2px;
+   text-align: center;
+   
+
+}
+    
+
+
