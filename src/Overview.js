@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
@@ -127,10 +128,10 @@ function Overview() {
             >
               <ul>
                 <li>
-                  <a href="#top">Learning</a>
+                  <Link to="/what">Learning</Link>
                 </li>
                 <li>
-                  <a href="#top">Technical</a>
+                  <Link to="/who">Technical</Link>
                 </li>
                 <li>
                   <a href="#top">Sales Resource</a>
@@ -186,7 +187,7 @@ function Overview() {
                 width: "250px",
                 height: "200px",
                 right: "30px",
-                bottom: "100px"
+                bottom: "80px"
               }}
             >
               Our Product
@@ -227,14 +228,22 @@ function Overview() {
             }}
           >
             <Card.Body
-              style={{ position: "relative", left: "-200px", margintop: "5px" }}
+              style={{ position: "relative", left: "-50px", margintop: "5px" }}
             >
-              <Card.Title>Speeches</Card.Title>
+              <Card.Title
+                style={{
+                  position: "relative",
+                  left: "100px",
+                  margintop: "5px"
+                }}
+              >
+                Speeches
+              </Card.Title>
               <Carousel>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    alt=" orem Ipsum is simply dummy text of the printing and
+                    alt="Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type and scrambled it to make."
@@ -244,9 +253,9 @@ function Overview() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    alt="It is a long established fact that a reader will be distracted by the readable 
-                    content of a page when looking at its layout. The point of using Lorem Ipsum is that 
-                    it has a more-or-less normal distribution of letters,as opposed to using 'Content here,
+                    alt="It is a long established fact that a reader will be 
+                    content of a page when looking at its layout. The point of 
+                    it has a more-or-less normal distribution of letters,as 
                      content here', making it look like readable English."
                   />
 
@@ -259,10 +268,9 @@ function Overview() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    alt="Contrary to popular belief, Lorem Ipsum is not simply random text.
-                     It has roots in a piece of classical Latin literature from 45 BC, making it
-                      over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-                       College in Virginia,looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsu"
+                    alt="Contrary to popular belief, Lorem Ipsum is not 
+                     It has roots in a piece of classical Latin literature 
+                       College in Virginia,looked up one of the more obsc"
                   />
 
                   <Carousel.Caption>
@@ -284,14 +292,22 @@ function Overview() {
               borderBottom: "none"
             }}
           >
-            <Card.Body>
+            <Card.Body
+              style={{
+                position: "relative",
+                padding: "5px",
+                width: "200px",
+                height: "200px",
+                left: "60px"
+              }}
+            >
               <Card.Title
                 style={{
-                  position: "absolute",
+                  position: "relative",
                   padding: "5px",
                   width: "200px",
                   height: "200px",
-                  left: "-160px"
+                  left: "-40px"
                 }}
               >
                 Careers

@@ -2,6 +2,7 @@
   position: relative;
   left: 900px;
   background-color: whitesmoke;
+  max-width: 350px;
 }
 .facebook {
   padding: 5px;
