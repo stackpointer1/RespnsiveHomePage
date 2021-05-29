@@ -10,6 +10,7 @@ import Whatwedo from "./Whatwedo";
 import Howwedo from "./Howwedo";
 import WhyDigitas from "./whyDigitas";
  import Global from "./Globalreach";
+ import Social from "./Social"
 
 
 
@@ -17,6 +18,7 @@ import WhyDigitas from "./whyDigitas";
 function App() {
   return (
     <Router>
+      <Social/>
        <Header/>
        <Navbar/>
        <Switch>
